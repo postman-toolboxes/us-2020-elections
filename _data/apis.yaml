@@ -12,6 +12,27 @@ url: apis.json
 specificationVersion: '0.14'
 apis:
 
+- name: U.S. Census Bureau
+  description: n alignment with the Digital Government Strategy, the Census Bureau is offering the public wider access to key U.S. statistics. The Census application programming interface (API) lets developers create custom apps to reach new users and makes key demographic, socio-economic and housing statistics more accessible than ever before. The Census Bureau’s API allows developers to design web and mobile apps to explore or learn more about America's changing population and economy.
+  tags:
+  - Census
+  - Population
+  - Federal Government
+  properties:
+  - type: x-website
+    url: https://www.census.gov/data/developers.html
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+  - type: x-rating
+    x-data:
+      rating: 8
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-Tweets: getpostman
+
 - name: Civic Information API
   description: The Google Civic Information API lets developers build applications that display civic information to their users. For any U.S. residential address, you can look up who represents that address at each elected level of government. During supported elections, you can also look up polling places, early vote location, candidate data, and other election official information.
   tags:

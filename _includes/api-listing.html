@@ -1,10 +1,12 @@
 {% for api in index.apis %}
+  {% assign website_url = "none" %}
   {% assign postman_docs = "none" %}
   {% assign postman_run = "none" %}
   {% assign github_url = "none" %}
   {% assign twitter_url = "none" %}
   {% assign rating = 0 %}
   {% for property in api.properties %}
+    {% if property.type == 'x-website' %}{% assign website_url = property.url %}{% endif %}
     {% if property.type == 'x-postman-documentation' %}{% assign postman_docs = property.url %}{% endif %}
     {% if property.type == 'x-run-in-postman' %}{% assign postman_run = property.url %}{% endif %}
     {% if property.type == 'x-github' %}{% assign github_url = property.url %}{% endif %}
@@ -23,8 +25,9 @@
            </div>
         </div>
         <div class="col-md-5 collection_cta">
-          <a class="landing btn btn__secondary-light" href="{{ postman_docs }}">Documentation</a>
-          <a class="btn btn__primary" href="{{ postman_run }}">Run in Postman</a>
+          {% if website_url != 'none' %}<a class="landing btn btn__secondary-light" href="{{ website_url }}">Website</a>{% endif %}
+          <a class="landing btn btn__secondary-light" href="{{ postman_docs }}" onclick="alert('Still Under Development!'); return false;">Documentation</a>
+          <a class="btn btn__primary" href="{{ postman_run }}" onclick="alert('Still Under Development!'); return false;">Run in Postman</a>
         </div>
       </div>
     {% endif %}
