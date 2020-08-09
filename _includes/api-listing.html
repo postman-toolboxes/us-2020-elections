@@ -1,0 +1,33 @@
+{% for api in index.apis %}
+  {% assign postman_docs = "none" %}
+  {% assign postman_run = "none" %}
+  {% assign github_url = "none" %}
+  {% assign twitter_url = "none" %}
+  {% assign rating = 0 %}
+  {% for property in api.properties %}
+    {% if property.type == 'x-postman-documentation' %}{% assign postman_docs = property.url %}{% endif %}
+    {% if property.type == 'x-run-in-postman' %}{% assign postman_run = property.url %}{% endif %}
+    {% if property.type == 'x-github' %}{% assign github_url = property.url %}{% endif %}
+    {% if property.type == 'x-twitter' %}{% assign twitter_url = property.url %}{% endif %}
+    {% if property.type == 'x-rating' %}{% assign rating = property.x-data.rating %}{% endif %}
+  {% endfor %}
+
+  {% if rating >= rating_bottom %}
+    {% if rating <= rating_top %}
+      <div class="row collection">
+        <div class="col-md-7">
+           <div class="row collection__meta">
+              <div class="col-12 collection__title">{{ api.name }}</div>
+              <div class="col-12 collection__description">{{ api.description }}</div>
+              <div class="col-12 collection__description"><strong>Resources:</strong> {% for tag in api.tags %}{{ tag }}{% if forloop.last == true %}{% else %}, {% endif %}{% endfor %}</div>
+           </div>
+        </div>
+        <div class="col-md-5 collection_cta">
+          <a class="landing btn btn__secondary-light" href="{{ postman_docs }}">Documentation</a>
+          <a class="btn btn__primary" href="{{ postman_run }}">Run in Postman</a>
+        </div>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+<br><br>
