@@ -1,2 +1,4 @@
-# COVID-19
-This is a proof of concept for a Postman toolbox, which provides access to a list of APIs available for COVID-19, providing a curated list of APIs which are managed on GitHub, allowing others to submit to the list of APIs, or fork the entire repo and use the toolbox in their own organization.
+# U.S. 2020 Election Developer Toolbox
+This is a toolbox of API collections, visualizations, and tooling to help make sense of the 2020 election in the United States. Providing a single landing page, documentation, and Postman collections that can be easily run using the Postman platform.
+
+URL: https://postman-toolboxes.github.io/us-2020-elections/
