@@ -76,6 +76,43 @@ layout: default
 <div class="container-fluid">
    <div class="row blurb text-center">
       <div class="col-md-12">
+         <h2>Thank You To Our Partners For Helping Make This Happen!</h2>
+      </div>
+      <div class="col-md-12">
+        <a href="http://www.mtna.us/"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/metadata-technology-north-america/metdata-technology-north-america.png" width="25%" style="border: 2px solid #000; background-color:#FFF;"></a>
+        <a href="https://apimetrics.io/"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/apimetrics/apimetrics-logo.png" width="25%" style="border: 2px solid #000; background-color:#FFF;"></a>
+      </div>
+   </div>
+</div>
+
+<div class="collection__wrapper">
+   <div class="container">
+
+			<div class="row collection__header text-center">
+         <div class="col-md-12">
+            <h2 class="h1">Additional API Collections</h2>
+        </div>
+      </div>
+
+      <div>
+        {% assign index = site.data.apis %}
+        {% assign rating_top = 7 %}
+        {% assign rating_bottom = 1 %}
+        {% include api-listing.html %}
+      </div>
+
+      <div class="row">
+         <div class="col-md-12">
+            <p class="collection__end">To submit an API to add to the list, please email us at<br><span><a class="link-style" href="mailto:{{ site.email }}">{{ site.email }}</a></span>or<span><a href="https://github.com/{{ site.github_user }}/{{ site.github_repo }}/issues" class="link-style"> submit an issue on Github</a>.</span></p>
+         </div>
+      </div>
+
+   </div>
+</div>
+
+<div class="container-fluid">
+   <div class="row blurb text-center">
+      <div class="col-md-12">
          <h2>About this U.S. 2020 Election Toolbox</h2>
          <p class="collection__end_p">This is a toolbox of APIs that runs as a website using GitHub pages, providing a simple, open source, and community driven approach to crowdsourcing and evolving a curated list of APIs, with accompanying documentation and Postman collections to help get developers started.</p>
          <p>You can view a machine readable index of this API toolbox via <a href="{{ site.url }}/apis.json" target="_blank">the projects APIs.json file</a>.</p>
