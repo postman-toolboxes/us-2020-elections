@@ -53,6 +53,35 @@ apis:
   - FN: Postman
     email: covid-19@postman.com
     x-Tweets: getpostman
+    
+- name: Rich Data Services Election API
+  description: The Rich Data Services Public Data Center API from Metadata Technology North America offers access to high-quality U.S. Election polling, voting, public opinion, and related data. Collected from popular public sources, the collection is constantly growing, with data updated daily.
+  tags:
+  - Polling Data
+  - Approval Polls
+  - Public Opinion
+  properties:
+  - type: x-website
+    url: https://public.richdataservices.com
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/6470514/TVCb5AwL
+  - type: x-run-in-postman
+    url: https://www.getpostman.com/collections/9e27546673c7f17e5955
+  - type: x-rating
+    x-data:
+      rating: 9
+  - type: x-sources
+    url: https://public.richdataservices.com/rds-explorer/data-product-selection
+    x-data:
+      sources:
+        - name: The COVID Tracking Project
+          url: https://covidtracking.com/data
+       - name: American National Election Studies
+          url: https://electionstudies.org/
+  contact:
+  - FN: MTNA
+    email: mtna@mtna.us
+    x-Tweets: mtnaus
 
 - name: Democracy Works Elections API
   description: Since 2011, Democracy Works has tracked state and municipal elections for TurboVote users. Our full-time research team maintains a detailed calendar of upcoming state, special, and local elections, which we release as our Elections API.
