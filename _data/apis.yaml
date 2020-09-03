@@ -26,9 +26,9 @@ apis:
   - type: x-website
     url: https://www.census.gov/data/developers.html
   - type: x-postman-documentation
-    url: none
+    url: https://documenter.getpostman.com/view/2220438/TVCgxS4Y#1dfd9335-1f3e-4bc9-87c3-ec96fc586002
   - type: x-run-in-postman
-    url: none
+    url: https://app.getpostman.com/run-collection/2220438-df0457fe-d465-4e8b-8a9b-4567c47e15ee-TVCgxS4Y
   - type: x-rating
     x-data:
       rating: 8
@@ -146,9 +146,9 @@ apis:
   - type: x-website
     url: https://api.open.fec.gov/developers/
   - type: x-postman-documentation
-    url: none
+    url: https://documenter.getpostman.com/view/8854915/TVCgxmU1
   - type: x-run-in-postman
-    url: none
+    url: 8854915-77618ce3-1619-428c-b2fb-92cd8d176555-TVCgxmU1
   - type: x-rating
     x-data:
       rating: 8
