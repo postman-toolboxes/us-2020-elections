@@ -26,8 +26,8 @@
         </div>
         <div class="col-md-5 collection_cta">
           {% if website_url != 'none' %}<a class="landing btn btn__secondary-light" href="{{ website_url }}">Website</a>{% endif %}
-          <a class="landing btn btn__secondary-light" href="{{ postman_docs }}" onclick="alert('Still Under Development!'); return false;">Documentation</a>
-          <a class="btn btn__primary" href="{{ postman_run }}" onclick="alert('Still Under Development!'); return false;">Run in Postman</a>
+          <a class="landing btn btn__secondary-light" href="{{ postman_docs }}"{% if website_url == 'none' %} onclick="alert('Still Under Development!'); return false;"{% endif %}>Documentation</a>
+          <a class="btn btn__primary" href="{{ postman_run }}"{% if postman_run == 'none' %} onclick="alert('Still Under Development!'); return false;"{% endif %}>Run in Postman</a>
         </div>
       </div>
     {% endif %}

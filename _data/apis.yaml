@@ -53,7 +53,7 @@ apis:
   - FN: Postman
     email: covid-19@postman.com
     x-Tweets: getpostman
-    
+
 - name: Rich Data Services Election API
   description: The Rich Data Services Public Data Center API from Metadata Technology North America offers access to high-quality U.S. Election polling, voting, public opinion, and related data. Collected from popular public sources, the collection is constantly growing, with data updated daily.
   tags:
@@ -69,7 +69,7 @@ apis:
     url: https://www.getpostman.com/collections/9e27546673c7f17e5955
   - type: x-rating
     x-data:
-      rating: 9 
+      rating: 9
   contact:
   - FN: MTNA
     email: mtna@mtna.us
@@ -100,6 +100,9 @@ apis:
   description: Integrate your election systems with AP Elections API. Your election results delivery application (for example, a results loader that powers your election websites) retrieves election race information from AP Elections API.
   tags:
   - News
+  - Press Releases
+  - Media
+  - Press
   properties:
   - type: x-website
     url: https://developer.ap.org/ap-elections-api/
@@ -120,6 +123,11 @@ apis:
   tags:
   - Candidates
   - Comittees
+  - Federal Government
+  - Federal Election Commission
+  - Elections
+  - Campaigns
+  - Financing
   properties:
   - type: x-website
     url: https://api.open.fec.gov/developers/
@@ -139,6 +147,8 @@ apis:
   description: Our lab is a clearinghouse for data sets that can fuel studies on elections and how they're conducted. Find election data and research tools produced by us and others.
   tags:
   - MIT
+  - Elections
+  - Candidates
   properties:
   - type: x-website
     url: https://electionlab.mit.edu/data
@@ -158,6 +168,7 @@ apis:
   description: Ballotpedia's highly-trained team of professionals gathers election information on a daily basis. The content created by these researchers is entered straight into Ballotpedia's API, which is then used to power Ballotpedia.org, and the Sample Ballot Lookup. We compile comprehensive candidate lists for all state legislative, state executive, and congressional elections (including primaries, generals, and special elections), as well as comprehensive local election coverage in the largest 100 U.S. cities by population.
   tags:
   - Elections
+  - Ballots
   properties:
   - type: x-website
     url: https://ballotpedia.org/API-documentation
@@ -178,6 +189,10 @@ apis:
   tags:
   - Campaigns
   - Finance
+  - Financial
+  - Money
+  - SuperPAC
+  - Transparency
   properties:
   - type: x-website
     url: https://projects.propublica.org/api-docs/campaign-finance/
@@ -193,25 +208,26 @@ apis:
     email: covid-19@postman.com
     x-Tweets: getpostman
 
-  - name: OpenSecrets
-    description: Our APIs (Application Programming Interfaces) provide access via web programming to the data we display on OpenSecrets. You may use our APIs to display OpenSecrets data on your web pages or to create mashups using live up-to-date data.
-    tags:
-    - Campaigns
-    - Finance
-    properties:
-    - type: x-website
-      url: https://www.opensecrets.org/open-data/api
-    - type: x-postman-documentation
-      url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
-    - type: x-run-in-postman
-      url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
-    - type: x-rating
-      x-data:
-        rating: 8
-    contact:
-    - FN: Postman
-      email: covid-19@postman.com
-      x-Tweets: getpostman
+- name: OpenSecrets
+  description: Our APIs (Application Programming Interfaces) provide access via web programming to the data we display on OpenSecrets. You may use our APIs to display OpenSecrets data on your web pages or to create mashups using live up-to-date data.
+  tags:
+  - Campaigns
+  - Finance
+  - Transparency
+  properties:
+  - type: x-website
+    url: https://www.opensecrets.org/open-data/api
+  - type: x-postman-documentation
+    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+  - type: x-rating
+    x-data:
+      rating: 8
+  contact:
+  - FN: Postman
+    email: covid-19@postman.com
+    x-Tweets: getpostman
 
 maintainers:
 - FN: Postman
