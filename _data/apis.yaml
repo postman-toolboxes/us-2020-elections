@@ -132,6 +132,16 @@ apis:
   - Elections
   - Campaigns
   - Financing
+  - Filings
+  - Disbursements
+  - Loans
+  - Debts
+  - Search
+  - Expenditures
+  - Electioneering
+  - Presidential
+  - Audit
+  - Legal
   properties:
   - type: x-website
     url: https://api.open.fec.gov/developers/
