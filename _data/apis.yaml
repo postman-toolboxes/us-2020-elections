@@ -18,13 +18,17 @@ apis:
   - Census
   - Population
   - Federal Government
+  - Surveys
+  - Demographics
+  - Geographic
+  - United States
   properties:
   - type: x-website
     url: https://www.census.gov/data/developers.html
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 8
@@ -43,9 +47,9 @@ apis:
   - type: x-website
     url: https://developers.google.com/civic-information
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 5
@@ -85,9 +89,9 @@ apis:
   - type: x-website
     url: https://www.democracy.works/elections-api
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 5
@@ -107,9 +111,9 @@ apis:
   - type: x-website
     url: https://developer.ap.org/ap-elections-api/
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 5
@@ -132,9 +136,9 @@ apis:
   - type: x-website
     url: https://api.open.fec.gov/developers/
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 8
@@ -153,9 +157,9 @@ apis:
   - type: x-website
     url: https://electionlab.mit.edu/data
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 3
@@ -173,9 +177,9 @@ apis:
   - type: x-website
     url: https://ballotpedia.org/API-documentation
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 5
@@ -197,9 +201,9 @@ apis:
   - type: x-website
     url: https://projects.propublica.org/api-docs/campaign-finance/
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 4
@@ -218,9 +222,9 @@ apis:
   - type: x-website
     url: https://www.opensecrets.org/open-data/api
   - type: x-postman-documentation
-    url: https://documenter.getpostman.com/view/8854915/SzS7NkAS?version=latest
+    url: none
   - type: x-run-in-postman
-    url: https://app.getpostman.com/run-collection/ba0e8998f12c10175550
+    url: none
   - type: x-rating
     x-data:
       rating: 8

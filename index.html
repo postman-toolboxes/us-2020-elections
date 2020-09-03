@@ -79,8 +79,9 @@ layout: default
          <h2>Thank You To Our Partners For Helping Make This Happen!</h2>
       </div>
       <div class="col-md-12">
-        <a href="http://www.mtna.us/"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/metadata-technology-north-america/metdata-technology-north-america.png" width="25%" style="border: 2px solid #000; background-color:#FFF;"></a>
-        <a href="https://apimetrics.io/"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/apimetrics/apimetrics-logo.png" width="25%" style="border: 2px solid #000; background-color:#FFF;"></a>
+        {% for partner in site.data.partners %}
+          <a href="{{ partner.url }}"><img src="{{ partner.image }}" width="25%" style="border: 2px solid #000; background-color:#FFF;"></a>
+        {% endfor %}
       </div>
    </div>
 </div>
