@@ -70,7 +70,7 @@ apis:
   - type: x-postman-documentation
     url: https://documenter.getpostman.com/view/6470514/TVCb5AwL
   - type: x-run-in-postman
-    url: https://www.getpostman.com/collections/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
+    url: https://app.getpostman.com/run-collection/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
   - type: x-rating
     x-data:
       rating: 9
@@ -163,7 +163,7 @@ apis:
   - type: x-postman-documentation
     url: https://documenter.getpostman.com/view/8854915/TVCgxmU1
   - type: x-run-in-postman
-    url: https://www.getpostman.com/collections/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
+    url: https://app.getpostman.com/run-collection/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
   - type: x-rating
     x-data:
       rating: 8
@@ -247,9 +247,9 @@ apis:
   - type: x-website
     url: https://www.opensecrets.org/open-data/api
   - type: x-postman-documentation
-    url: none
+    url: https://documenter.getpostman.com/view/8854915/TVCmRQGx
   - type: x-run-in-postman
-    url: none
+    url: https://app.getpostman.com/run-collection/8854915-e2af9037-4fc5-48c8-ae35-03cf4ced4d46-TVCmRQGx
   - type: x-rating
     x-data:
       rating: 8
