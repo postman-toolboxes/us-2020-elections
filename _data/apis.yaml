@@ -70,7 +70,7 @@ apis:
   - type: x-postman-documentation
     url: https://documenter.getpostman.com/view/6470514/TVCb5AwL
   - type: x-run-in-postman
-    url: https://www.getpostman.com/collections/9e27546673c7f17e5955
+    url: https://www.getpostman.com/collections/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
   - type: x-rating
     x-data:
       rating: 9
@@ -163,7 +163,7 @@ apis:
   - type: x-postman-documentation
     url: https://documenter.getpostman.com/view/8854915/TVCgxmU1
   - type: x-run-in-postman
-    url: 8854915-77618ce3-1619-428c-b2fb-92cd8d176555-TVCgxmU1
+    url: https://www.getpostman.com/collections/6470514-83053699-96ae-49a9-a258-ba3bbf5ddb40-TVCb5AwL
   - type: x-rating
     x-data:
       rating: 8
