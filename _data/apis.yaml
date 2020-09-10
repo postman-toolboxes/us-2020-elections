@@ -74,6 +74,21 @@ apis:
   - type: x-rating
     x-data:
       rating: 9
+  - type: x-postman-visualizer
+    x-data:
+      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Approval+of+Trump's+Handling+of+COVID-19.png
+      title: Approval of Trump's Handling of COVID-19
+      url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#12e98569-0c38-4231-9d91-94132b6afc7a
+  - type: x-postman-visualizer
+    x-data:
+      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Battleground+State+Vote+Share+and+Chance+of+Winning.png
+      title: Battleground State Vote Share and Chance of Winning
+      url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#871f42a4-e666-4e91-b4be-ab5b4866e52f
+  - type: x-postman-visualizer
+    x-data:
+      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Concern+for+the+Effects+of+COVID-19.png
+      title: Concern for the Effects of COVID-19
+      url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#0a65016a-773b-41a4-b72d-9c854b1da4a7
   contact:
   - FN: MTNA
     email: mtna@mtna.us
