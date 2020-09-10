@@ -89,6 +89,14 @@ apis:
       thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Concern+for+the+Effects+of+COVID-19.png
       title: Concern for the Effects of COVID-19
       url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#0a65016a-773b-41a4-b72d-9c854b1da4a7
+  - type: x-sources
+    url: https://public.richdataservices.com/rds-explorer/data-product-selection
+    x-data:
+      sources:
+        - name: FiveThirtyEight
+          url: https://fivethirtyeight.com/
+        - name: American National Election Studies
+          url: https://electionstudies.org/
   contact:
   - FN: MTNA
     email: mtna@mtna.us
