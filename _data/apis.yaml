@@ -269,7 +269,6 @@ apis:
 - name: OpenSecrets
   description: Our APIs (Application Programming Interfaces) provide access via web programming to the data we display on OpenSecrets. You may use our APIs to display OpenSecrets data on your web pages or to create mashups using live up-to-date data.
   image: https://postman-toolboxes.s3.amazonaws.com/assets/us-2020-election/opensecrets-logo.png
-  image:
   tags:
   - Campaigns
   - Finance
