@@ -1,7 +1,7 @@
 ---
 name: U.S. Election 2020 Developer Toolbox
 description: This is a toolbox of API collections, visualizations, and tooling to help make sense of the 2020 election in the United States. Providing a single landing page, documentation, and Postman collections that can be easily run using the Postman platform.
-image: https://postman-toolboxes.s3.amazonaws.com/assets/us-elections-2020.png
+image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-elections-2020.png
 tags:
 - United States
 - Elections
@@ -14,7 +14,7 @@ apis:
 
 - name: U.S. Census Bureau
   description: n alignment with the Digital Government Strategy, the Census Bureau is offering the public wider access to key U.S. statistics. The Census application programming interface (API) lets developers create custom apps to reach new users and makes key demographic, socio-economic and housing statistics more accessible than ever before. The Census Bureau’s API allows developers to design web and mobile apps to explore or learn more about America's changing population and economy.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/us-2020-election/us-census-bureau-lofo.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/us-census-bureau-lofo.png
   tags:
   - Census
   - Population
@@ -34,7 +34,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/12
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/12
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -57,7 +57,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/4
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/4
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -65,7 +65,7 @@ apis:
 
 - name: Rich Data Services Election API
   description: The Rich Data Services Public Data Center API from Metadata Technology North America offers access to high-quality U.S. Election polling, voting, public opinion, and related data. Collected from popular public sources, the collection is constantly growing, with data updated daily.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/us-2020-election/metdata-technology-north-america.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/metdata-technology-north-america.png
   tags:
   - Polling Data
   - Approval Polls
@@ -82,17 +82,17 @@ apis:
       rating: 9
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Approval+of+Trump's+Handling+of+COVID-19.png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/us-election-rich-data-services/Approval+of+Trump's+Handling+of+COVID-19.png
       title: Approval of Trump's Handling of COVID-19
       url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#12e98569-0c38-4231-9d91-94132b6afc7a
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Battleground+State+Vote+Share+and+Chance+of+Winning.png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/us-election-rich-data-services/Battleground+State+Vote+Share+and+Chance+of+Winning.png
       title: Battleground State Vote Share and Chance of Winning
       url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#871f42a4-e666-4e91-b4be-ab5b4866e52f
   - type: x-postman-visualizer
     x-data:
-      thumbnail: https://postman-toolboxes.s3.amazonaws.com/collections/us-election-rich-data-services/Concern+for+the+Effects+of+COVID-19.png
+      thumbnail: https://postman-toolboxes2.s3.amazonaws.com/collections/us-election-rich-data-services/Concern+for+the+Effects+of+COVID-19.png
       title: Concern for the Effects of COVID-19
       url: https://documenter.getpostman.com/view/6470514/TVCb5AwL#0a65016a-773b-41a4-b72d-9c854b1da4a7
   - type: x-sources
@@ -104,7 +104,7 @@ apis:
         - name: American National Election Studies
           url: https://electionstudies.org/
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/13
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/13
   contact:
   - FN: MTNA
     email: mtna@mtna.us
@@ -127,7 +127,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/5
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/5
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -151,7 +151,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/6
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/6
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -159,7 +159,7 @@ apis:
 
 - name: OpenFEC
   description: This application programming interface (API) allows you to explore the way candidates and committees fund their campaigns. The FEC API is a RESTful web service supporting full-text and field-specific searches on FEC data. Bulk downloads are available on the current site. Information is tied to the underlying forms by file ID and image ID. Data is updated nightly.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/us-2020-election/open-fec-graphs.jpg
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/open-fec-graphs.jpg
   tags:
   - Candidates
   - Comittees
@@ -189,7 +189,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/7
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/7
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -212,7 +212,7 @@ apis:
     x-data:
       rating: 3
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/8
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/8
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -234,7 +234,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/9
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/9
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -260,7 +260,7 @@ apis:
     x-data:
       rating: 4
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/10
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/10
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -268,7 +268,7 @@ apis:
 
 - name: OpenSecrets
   description: Our APIs (Application Programming Interfaces) provide access via web programming to the data we display on OpenSecrets. You may use our APIs to display OpenSecrets data on your web pages or to create mashups using live up-to-date data.
-  image: https://postman-toolboxes.s3.amazonaws.com/assets/us-2020-election/opensecrets-logo.png
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/opensecrets-logo.png
   tags:
   - Campaigns
   - Finance
@@ -284,7 +284,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes/us-2020-elections/issues/14
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/14
   contact:
   - FN: Postman
     email: covid-19@postman.com

@@ -39,7 +39,7 @@
           {% if website_url != 'none' %}<a class="landing btn btn__secondary-light" href="{{ website_url }}" title="Website">Website</a>{% endif %}
           <a class="landing btn btn__secondary-light" title="Documentation" href="{{ postman_docs }}"{% if postman_docs == 'none' %} onclick="alert('Under developmet -- Visit Issue for More Info!'); return false;"{% endif %}>Docs</a>
           <a class="btn btn__primary" title="Run in Postman" href="{{ postman_run }}"{% if postman_run == 'none' %} onclick="alert('Still Under Development!'); return false;"{% endif %}>Run in Postman</a>
-          {% if github_issue != 'none' %}<a href="{{ github_issue }}" target="_blank" title="GitHub Issue Conversation"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/github-issues-icon.png" width="60"></a>{% endif %}
+          {% if github_issue != 'none' %}<a href="{{ github_issue }}" target="_blank" title="GitHub Issue Conversation"><img src="https://postman-toolboxes2.s3.amazonaws.com/assets/github-issues-icon.png" width="60"></a>{% endif %}
         </div>
 
         {% if apimetrics_casc != "none" %}
@@ -47,7 +47,7 @@
            <div class="row collection__meta">
              <table style="width: 100%; font-size: 14px;">
               <tr>
-                <td width="170"><img src="https://postman-toolboxes.s3.amazonaws.com/assets/apimetrics/apimetrics-logo.png" width="170" style="padding: 3px;"></td>
+                <td width="170"><img src="https://postman-toolboxes2.s3.amazonaws.com/assets/apimetrics/apimetrics-logo.png" width="170" style="padding: 3px;"></td>
                 <td><strong>CASC Score:</strong> {{ apimetrics_casc.casc }}</td>
                 <td><strong>Pass Rate:</strong> {{ apimetrics_casc.passRate }}</td>
                 <td><strong>Outliers:</strong> {{ apimetrics_casc.outliers }}</td>
