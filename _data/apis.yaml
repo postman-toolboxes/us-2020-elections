@@ -13,7 +13,7 @@ specificationVersion: '0.14'
 apis:
 
 - name: U.S. Census Bureau
-  description: n alignment with the Digital Government Strategy, the Census Bureau is offering the public wider access to key U.S. statistics. The Census application programming interface (API) lets developers create custom apps to reach new users and makes key demographic, socio-economic and housing statistics more accessible than ever before. The Census Bureau’s API allows developers to design web and mobile apps to explore or learn more about America's changing population and economy.
+  description: In alignment with the Digital Government Strategy, the Census Bureau is offering the public wider access to key U.S. statistics. The Census application programming interface (API) lets developers create custom apps to reach new users and makes key demographic, socio-economic and housing statistics more accessible than ever before. The Census Bureau’s API allows developers to design web and mobile apps to explore or learn more about America's changing population and economy.
   image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/us-census-bureau-lofo.png
   tags:
   - Census
