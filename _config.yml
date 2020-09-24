@@ -4,7 +4,7 @@ image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/postm
 url: https://postman-toolboxes2.github.io/us-2020-elections
 email: covid-19@postman.com
 
-github_user: postman-toolboxes2
+github_user: postman-toolboxes
 github_repo: us-2020-elections
 github_branch: master
 
