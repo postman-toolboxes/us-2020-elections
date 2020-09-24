@@ -1,6 +1,6 @@
 ---
 name: U.S. Election 2020 Developer Toolbox
-description: This is a toolbox of API collections, visualizations, and tooling to help make sense of the 2020 election in the United States. Providing a single landing page, documentation, and Postman collections that can be easily run using the Postman platform.
+description: During this election season, citizens and officials at all levels need quick, easy access to real-time data from a wide range of sources. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area. This resource center is a toolbox of API collections, visualizations, and tooling to help you make sense of the 2020 U.S. election.
 image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-elections-2020.png
 tags:
 - United States
@@ -240,7 +240,7 @@ apis:
     email: covid-19@postman.com
     x-Tweets: getpostman
 
-- name: ProPublic Campaign Finance API
+- name: ProPublica Campaign Finance API
   description: Using the Campaign Finance API, you can retrieve data from United States Federal Election Commission filings and other sources. The API, which originated at The New York Times in 2008, covers summary information for candidates and committees, as well as certain types of itemized data. This document describes the requests that users can make of the API and the responses that it returns.
   tags:
   - Campaigns
