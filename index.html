@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
+{% assign index = site.data.apis %}
+{% assign title = index.name %}
+{% assign description = index.description %}
 <div class="container-fluid hero v5_starfield-small-night-sky pb-4">
    <div class="container">
       <div class="row">
          <div class="col-md-6 hero_title">
-            <h1>{{ site.title }}</h1>
+            <h1>{{ title }}</h1>
          </div>
          <div class="col-md-6 hero_image"><img src="{{ site.image }}" alt=""></div>
       </div>
@@ -15,7 +18,7 @@ layout: default
 <div class="container">
    <div class="row">
       <div class="col-md-10 offset-md-1 welcome text-center">
-         <p>{{ site.description }}</p>
+         <p>{{ description }}</p>
       </div>
    </div>
 </div>
