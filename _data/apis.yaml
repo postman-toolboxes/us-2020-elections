@@ -1,5 +1,5 @@
 ---
-name: U.S. 2020 Election API Resource Center
+name: 2020 U.S. Election API Resource Center
 description: During this election season, citizens and officials at all levels need quick, easy access to real-time data from a wide range of sources. This type of information exchange is what APIs do best, and as an API-first company, Postman is committed to providing whatever assistance we can in this area. This resource center is a toolbox of API collections, visualizations, and tooling to help you make sense of the 2020 U.S. election.
 image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-elections-2020.png
 tags:
