@@ -144,9 +144,9 @@ apis:
   - type: x-website
     url: https://developer.ap.org/ap-elections-api/
   - type: x-postman-documentation
-    url: none
+    url: https://documenter.getpostman.com/view/12890183/TVKHVG7R
   - type: x-run-in-postman
-    url: none
+    url: https://app.getpostman.com/run-collection/12890183-bd3b121c-361e-4953-bf84-288b04b0531d-TVKHVG7R
   - type: x-rating
     x-data:
       rating: 5
