@@ -309,7 +309,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/14
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/19
   contact:
   - FN: Nimbella
     email: contact@nimbella.com
