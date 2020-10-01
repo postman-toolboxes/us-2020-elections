@@ -290,6 +290,31 @@ apis:
     email: covid-19@postman.com
     x-Tweets: getpostman
 
+- name: Nimbella API for General Election 2020 USA
+  description: Look up the representatives, polling places, early vote location, candidate data, and other election official information.
+  image: https://postman-toolboxes2.s3.amazonaws.com/assets/us-2020-election/nimbella-logo.png
+  tags:
+  - Representatives
+  - Polling Locations
+  - Early Vote Locations
+  - Candidates
+  properties:
+  - type: x-website
+    url: https://electiondemo-apigcp.nimbella.io/
+  - type: x-postman-documentation
+    url: https://electiondemo-apigcp.nimbella.io/api
+  - type: x-run-in-postman
+    url: https://app.getpostman.com/run-collection/b4d25e3121fd8d8998aa
+  - type: x-rating
+    x-data:
+      rating: 8
+  - type: x-github-issue
+    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/14
+  contact:
+  - FN: Nimbella
+    email: contact@nimbella.com
+    x-Tweets: nimbella
+
 maintainers:
 - FN: Postman
   x-Tweets: getpostman
