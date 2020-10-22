@@ -34,7 +34,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/12
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/12
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -57,7 +57,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/4
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/4
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -104,7 +104,7 @@ apis:
         - name: American National Election Studies
           url: https://electionstudies.org/
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/13
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/13
   contact:
   - FN: MTNA
     email: mtna@mtna.us
@@ -127,7 +127,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/5
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/5
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -151,7 +151,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/6
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/6
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -189,7 +189,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/7
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/7
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -212,7 +212,7 @@ apis:
     x-data:
       rating: 3
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/8
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/8
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -234,7 +234,7 @@ apis:
     x-data:
       rating: 5
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/9
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/9
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -260,7 +260,7 @@ apis:
     x-data:
       rating: 4
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/10
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/10
   contact:
   - FN: Postman
     email: covid-19@postman.com
@@ -284,7 +284,7 @@ apis:
     x-data:
       rating: 8
   - type: x-github-issue
-    url: https://github.com/postman-toolboxes2/us-2020-elections/issues/14
+    url: https://github.com/postman-toolboxes/us-2020-elections/issues/14
   contact:
   - FN: Postman
     email: covid-19@postman.com
